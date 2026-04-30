@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Our Products – Tip Top Tailor | Bespoke Menswear Collections</title>
+  <meta name="description" content="Browse Tip Top Tailor's bespoke menswear collections — suits, shirts, coats, trousers, kurtas and accessories, all handcrafted in India." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="products.css" />
+</head>
+<body>
+<!-- HEADER / NAV -->
+  <header class="site-header" id="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo-wrap" id="logo-link" aria-label="Tip Top Tailor Home">
+        <div class="logo-img-container">
+          <img src="logo.jpg" alt="Tip Top Tailor" class="logo-img"/>
+        </div>
+        <div class="logo-text">
+          <span class="logo-the">TIP TOP</span>
+          <span class="logo-name">TAILOR</span>
+        </div>
+      </a>
+
+      <nav class="main-nav" id="main-nav" aria-label="Primary navigation">
+        <ul class="nav-list">
+          <li><a href="products.html" class="nav-link active" id="nav-products">OUR PRODUCTS</a></li>
+          <li><a href="contact.html" class="nav-link" id="nav-contact">CONTACT US</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button class="icon-btn" id="btn-search" aria-label="Search">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="22" y2="22"/></svg>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <nav class="mobile-nav" id="mobile-nav" aria-hidden="true">
+      <ul>
+        <li><a href="products.html" class="mob-link">OUR PRODUCTS</a></li>
+        <li><a href="contact.html" class="mob-link">CONTACT US</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- SEARCH OVERLAY -->
+    <div class="search-overlay" id="search-overlay" aria-hidden="true">
+    <div class="search-wrap">
+      <div class="search-box">
+        <svg class="search-icon-inline" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="22" y2="22"/></svg>
+        <input type="text" id="search-input" placeholder="Search suits, shirts, kurtas, coats..." autocomplete="off" spellcheck="false"/>
+        <button class="search-close" id="search-close" aria-label="Close search">&#x2715;</button>
+      </div>
+      <div class="search-results" id="search-results" aria-live="polite"></div>
+    </div>
+  </div>
+
+  <main class="page-fade-in">
+
+    <!-- HERO -->
+    <section class="products-hero" id="products-hero">
+      <p class="products-hero-tag">EST. MCMXLVII · HANDCRAFTED IN INDIA</p>
+      <h1 class="products-hero-title">Our Collections</h1>
+      <p class="products-hero-sub">Each garment a testament to the finest tailoring traditions — crafted for the modern gentleman.</p>
+    </section>
+
+    <!-- BREADCRUMB -->
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="index.html" id="bc-home">HOME</a>
+      <span class="bc-sep">›</span>
+      <span class="bc-current">OUR PRODUCTS</span>
+    </nav>
+
+    <!-- CATEGORY GRID -->
+    <section class="products-section" id="products-section">
+      <div class="products-grid" id="products-grid">
+
+        <!-- Suits -->
+        <a href="category-suits.html" class="prod-card reveal-up" id="prod-suits">
+          <div class="prod-card-img-wrap">
+            <img src="suits.png" alt="Bespoke suits collection" class="prod-card-img" loading="lazy"/>
+            <div class="prod-card-overlay"></div>
+            <div class="prod-card-desc">
+              <p>Classic charcoal to glen plaid — tailored precisely to your silhouette.</p>
+              <span class="prod-card-cta">VIEW COLLECTION</span>
+            </div>
+          </div>
+          <div class="prod-card-info">
+            <span class="prod-card-name">Suits</span>
+            <span class="prod-card-arrow">→</span>
+          </div>
+        </a>
+
+        <!-- Shirts -->
+        <a href="category-shirts.html" class="prod-card reveal-up reveal-delay-1" id="prod-shirts">
+          <div class="prod-card-img-wrap">
+            <img src="shirts.png" alt="Premium bespoke shirts collection" class="prod-card-img" loading="lazy"/>
+            <div class="prod-card-overlay"></div>
+            <div class="prod-card-desc">
+              <p>Egyptian cotton, Sea Island & fine linen — the finest fabrics for your shirt.</p>
+              <span class="prod-card-cta">VIEW COLLECTION</span>
+            </div>
+          </div>
+          <div class="prod-card-info">
+            <span class="prod-card-name">Shirts</span>
+            <span class="prod-card-arrow">→</span>
+          </div>
+        </a>
+
+        <!-- Coats & Outerwear -->
+        <a href="category-coats.html" class="prod-card reveal-up reveal-delay-2" id="prod-coats">
+          <div class="prod-card-img-wrap">
+            <img src="coats.png" alt="Coats and outerwear collection" class="prod-card-img" loading="lazy"/>
+            <div class="prod-card-overlay"></div>
+            <div class="prod-card-desc">
+              <p>Outerwear built to last a lifetime — from field coats to formal overcoats.</p>
+              <span class="prod-card-cta">VIEW COLLECTION</span>
+            </div>
+          </div>
+          <div class="prod-card-info">
+            <span class="prod-card-name">Coats &amp; Outerwear</span>
+            <span class="prod-card-arrow">→</span>
+          </div>
+        </a>
+
+        <!-- Trousers -->
+        <a href="category-trousers.html" class="prod-card reveal-up" id="prod-trousers">
+          <div class="prod-card-img-wrap">
+            <img src="fabric.png" alt="Tailored trousers collection" class="prod-card-img" loading="lazy" style="object-position: center center;"/>
+            <div class="prod-card-overlay"></div>
+            <div class="prod-card-desc">
+              <p>Precision-cut trousers and chinos in the finest wool, linen and cotton blends.</p>
+              <span class="prod-card-cta">VIEW COLLECTION</span>
+            </div>
+          </div>
+          <div class="prod-card-info">
+            <span class="prod-card-name">Trousers</span>
+            <span class="prod-card-arrow">→</span>
+          </div>
+        </a>
+
+        <!-- Kurtas -->
+        <a href="category-kurtas.html" class="prod-card reveal-up reveal-delay-1" id="prod-kurtas">
+          <div class="prod-card-img-wrap">
+            <img src="kurta.png" alt="Traditional Indian kurtas collection" class="prod-card-img" loading="lazy"/>
+            <div class="prod-card-overlay"></div>
+            <div class="prod-card-desc">
+              <p>Heritage Indian silhouettes reimagined for the contemporary gentleman.</p>
+              <span class="prod-card-cta">VIEW COLLECTION</span>
+            </div>
+          </div>
+          <div class="prod-card-info">
+            <span class="prod-card-name">Kurtas</span>
+            <span class="prod-card-arrow">→</span>
+          </div>
+        </a>
+
+        <!-- Accessories -->
+        <a href="category-accessories.html" class="prod-card reveal-up reveal-delay-2" id="prod-accessories">
+          <div class="prod-card-img-wrap">
+            <img src="blazer.png" alt="Accessories collection" class="prod-card-img" loading="lazy" style="object-position: center 30%;"/>
+            <div class="prod-card-overlay"></div>
+            <div class="prod-card-desc">
+              <p>The finishing touches — ties, pocket squares, cufflinks and more.</p>
+              <span class="prod-card-cta">VIEW COLLECTION</span>
+            </div>
+          </div>
+          <div class="prod-card-info">
+            <span class="prod-card-name">Accessories</span>
+            <span class="prod-card-arrow">→</span>
+          </div>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- SIGNATURE STRIP -->
+    <div class="signature-strip">
+      <div class="strip-inner">
+        <div class="strip-item">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <span>HAND-STITCHED</span>
+        </div>
+        <div class="strip-dot"></div>
+        <div class="strip-item">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M9 9h6M9 12h6M9 15h4"/></svg>
+          <span>MADE-TO-MEASURE</span>
+        </div>
+        <div class="strip-dot"></div>
+        <div class="strip-item">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg>
+          <span>PREMIUM FABRICS</span>
+        </div>
+        <div class="strip-dot"></div>
+        <div class="strip-item">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          <span>10-DAY DELIVERY</span>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer" id="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <img src="logo.jpg" alt="Tip Top Tailor" class="footer-logo-img"/>
+          <div class="footer-logo-text">
+            <span class="fl-the">TIP TOP</span>
+            <span class="fl-name">TAILOR</span>
+          </div>
+        </div>
+        <p class="footer-tagline">Handcrafted bespoke menswear.<br/>Est. MCMXLVII, India.</p>
+        <div class="footer-socials">
+          <a href="#" class="social-link" id="footer-ig" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <a href="#" class="social-link" id="footer-fb" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer-links-group">
+        <h3 class="footer-col-title">Collections</h3>
+        <ul>
+          <li><a href="category-suits.html" id="fl-suits">Suits</a></li>
+          <li><a href="category-shirts.html" id="fl-shirts">Shirts</a></li>
+          <li><a href="category-coats.html" id="fl-coats">Coats &amp; Outerwear</a></li>
+          <li><a href="category-trousers.html" id="fl-trousers">Trousers</a></li>
+          <li><a href="category-kurtas.html" id="fl-kurtas">Kurtas</a></li>
+          <li><a href="category-accessories.html" id="fl-accessories">Accessories</a></li>
+        </ul>
+      </div>
+      <div class="footer-links-group">
+        <h3 class="footer-col-title">Services</h3>
+        <ul>
+          <li><a href="customise.html" id="fl-bespoke">Bespoke Tailoring</a></li>
+          <li><a href="#" id="fl-mtm">Made-to-Measure</a></li>
+          <li><a href="#" id="fl-consult">Consultation</a></li>
+          <li><a href="#" id="fl-alterations">Alterations</a></li>
+        </ul>
+      </div>
+      <div class="footer-links-group">
+        <h3 class="footer-col-title">Atelier</h3>
+        <ul>
+          <li><a href="index.html#craft" id="fl-about">Our Story</a></li>
+          <li><a href="#" id="fl-fabrics">Fabric Library</a></li>
+          <li><a href="contact.html" id="fl-contact">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2024 Tip Top Tailor. All rights reserved.</p>
+      <div class="footer-legal">
+        <a href="#" id="fl-privacy">Privacy Policy</a>
+        <span>·</span>
+        <a href="#" id="fl-terms">Terms of Service</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

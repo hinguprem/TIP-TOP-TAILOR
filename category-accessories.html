@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Accessories Collection – Tip Top Tailor</title>
+  <meta name="description" content="The finishing touches — ties, pocket squares, cufflinks and belts to complete your bespoke look." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="products.css" />
+</head>
+<body>
+<header class="site-header" id="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo-wrap" id="logo-link" aria-label="Tip Top Tailor Home">
+        <div class="logo-img-container"><img src="logo.jpg" alt="Tip Top Tailor" class="logo-img"/></div>
+        <div class="logo-text"><span class="logo-the">TIP TOP</span><span class="logo-name">TAILOR</span></div>
+      </a>
+      <nav class="main-nav" id="main-nav" aria-label="Primary navigation">
+        <ul class="nav-list">
+          <li><a href="products.html" class="nav-link active" id="nav-products">OUR PRODUCTS</a></li>
+          <li><a href="contact.html" class="nav-link" id="nav-contact">CONTACT US</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-btn" id="btn-search" aria-label="Search">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="22" y2="22"/></svg>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+    <nav class="mobile-nav" id="mobile-nav" aria-hidden="true">
+      <ul>
+        <li><a href="products.html" class="mob-link">OUR PRODUCTS</a></li>
+        <li><a href="contact.html" class="mob-link">CONTACT US</a></li>
+      </ul>
+    </nav>
+  </header>
+    <div class="search-overlay" id="search-overlay" aria-hidden="true">
+    <div class="search-wrap">
+      <div class="search-box">
+        <svg class="search-icon-inline" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="22" y2="22"/></svg>
+        <input type="text" id="search-input" placeholder="Search suits, shirts, kurtas, coats..." autocomplete="off" spellcheck="false"/>
+        <button class="search-close" id="search-close" aria-label="Close search">&#x2715;</button>
+      </div>
+      <div class="search-results" id="search-results" aria-live="polite"></div>
+    </div>
+  </div>
+
+  <main class="page-fade-in">
+    <section class="cat-page-hero" id="cat-hero">
+      <img src="blazer.png" alt="Accessories and finishing touches" class="cat-page-hero-img" style="object-position:center 30%"/>
+      <div class="cat-page-hero-overlay"></div>
+      <div class="cat-page-hero-content">
+        <span class="cat-page-tag">OUR COLLECTIONS</span>
+        <h1 class="cat-page-title">Accessories</h1>
+        <p class="cat-page-sub">The details that distinguish — curated to complete the well-dressed gentleman.</p>
+      </div>
+    </section>
+
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="index.html" id="bc-home">HOME</a>
+      <span class="bc-sep">›</span>
+      <a href="products.html" id="bc-products">OUR PRODUCTS</a>
+      <span class="bc-sep">›</span>
+      <span class="bc-current">ACCESSORIES</span>
+    </nav>
+
+    <section class="cat-gallery-section" id="cat-gallery">
+      <div class="cat-gallery-header">
+        <div>
+          <h2 class="cat-gallery-title">The Accessories Collection</h2>
+          <div class="cat-gallery-rule"></div>
+        </div>
+        <span class="cat-gallery-count">6 STYLES</span>
+      </div>
+      <div class="cat-gallery-grid" id="accessories-gallery">
+        <div class="gallery-item gallery-item--wide reveal-up" id="acc-1">
+          <div class="gallery-item-img-wrap">
+            <img src="acc_ties.png" alt="Silk Ties Collection" class="gallery-item-img" style="object-position:center center" loading="lazy"/>
+            <div class="gallery-item-overlay"></div>
+          </div>
+          <div class="gallery-item-info">
+            <div class="gallery-item-name">Bespoke Silk Ties</div>
+            <div class="gallery-item-fabric">Seven-Fold Silk, Hand-Rolled Edges</div>
+          </div>
+        </div>
+        <div class="gallery-item reveal-up reveal-delay-1" id="acc-2">
+          <div class="gallery-item-img-wrap">
+            <img src="acc_squares.png" alt="Pocket Squares" class="gallery-item-img" style="object-position:center center" loading="lazy"/>
+            <div class="gallery-item-overlay"></div>
+          </div>
+          <div class="gallery-item-info">
+            <div class="gallery-item-name">Linen Pocket Squares</div>
+            <div class="gallery-item-fabric">Irish Linen, Hand-Stitched Border</div>
+          </div>
+        </div>
+        <div class="gallery-item reveal-up reveal-delay-2" id="acc-3">
+          <div class="gallery-item-img-wrap">
+            <img src="fabric.png" alt="Fine Fabric Detail" class="gallery-item-img" style="object-position:center center" loading="lazy"/>
+            <div class="gallery-item-overlay"></div>
+          </div>
+          <div class="gallery-item-info">
+            <div class="gallery-item-name">Sterling Silver Cufflinks</div>
+            <div class="gallery-item-fabric">925 Sterling Silver, Monogrammed</div>
+          </div>
+        </div>
+        <div class="gallery-item gallery-item--tall reveal-up" id="acc-4">
+          <div class="gallery-item-img-wrap">
+            <img src="blazer.png" alt="Blazer and Accessories" class="gallery-item-img" style="object-position:center 30%" loading="lazy"/>
+            <div class="gallery-item-overlay"></div>
+          </div>
+          <div class="gallery-item-info">
+            <div class="gallery-item-name">Full-Grain Leather Belt</div>
+            <div class="gallery-item-fabric">Vegetable-Tanned Leather, Brass Buckle</div>
+          </div>
+        </div>
+        <div class="gallery-item reveal-up reveal-delay-1" id="acc-5">
+          <div class="gallery-item-img-wrap">
+            <img src="suit_black.png" alt="Formal Suit with Accessories" class="gallery-item-img" style="object-position:center 20%" loading="lazy"/>
+            <div class="gallery-item-overlay"></div>
+          </div>
+          <div class="gallery-item-info">
+            <div class="gallery-item-name">Bespoke Bow Ties</div>
+            <div class="gallery-item-fabric">Silk Grosgrain, Self-Tie</div>
+          </div>
+        </div>
+        <div class="gallery-item reveal-up reveal-delay-2" id="acc-6">
+          <div class="gallery-item-img-wrap">
+            <img src="suit_navy.png" alt="Navy Suit with Accessories" class="gallery-item-img" style="object-position:center 30%" loading="lazy"/>
+            <div class="gallery-item-overlay"></div>
+          </div>
+          <div class="gallery-item-info">
+            <div class="gallery-item-name">Silk Braces / Suspenders</div>
+            <div class="gallery-item-fabric">Woven Silk, Leather Ends</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="back-bar">
+      <p class="back-bar-text">Explore more of our handcrafted collections.</p>
+      <a href="products.html" class="btn-back" id="back-to-products">← BACK TO PRODUCTS</a>
+    </div>
+  </main>
+
+  <footer class="site-footer" id="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <img src="logo.jpg" alt="Tip Top Tailor" class="footer-logo-img"/>
+          <div class="footer-logo-text"><span class="fl-the">TIP TOP</span><span class="fl-name">TAILOR</span></div>
+        </div>
+        <p class="footer-tagline">Handcrafted bespoke menswear.<br/>Est. MCMXLVII, India.</p>
+      </div>
+      <div class="footer-links-group">
+        <h3 class="footer-col-title">Collections</h3>
+        <ul>
+          <li><a href="category-suits.html">Suits</a></li>
+          <li><a href="category-shirts.html">Shirts</a></li>
+          <li><a href="category-coats.html">Coats &amp; Outerwear</a></li>
+          <li><a href="category-trousers.html">Trousers</a></li>
+          <li><a href="category-kurtas.html">Kurtas</a></li>
+          <li><a href="category-accessories.html">Accessories</a></li>
+        </ul>
+      </div>
+      <div class="footer-links-group">
+        <h3 class="footer-col-title">Atelier</h3>
+        <ul>
+          <li><a href="index.html#craft">Our Story</a></li>
+          <li><a href="customise.html">Bespoke Tailoring</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom"><p>© 2024 Tip Top Tailor. All rights reserved.</p></div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
