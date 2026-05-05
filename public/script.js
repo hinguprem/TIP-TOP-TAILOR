@@ -8,9 +8,13 @@ const CATALOG = {
     { name: 'Suits',       slug: 'suits',       page: 'category-suits.html',       image: 'suits.png',   keywords: ['suit','suits','two piece','three piece','formal','business','tuxedo','blazer','charcoal','navy','ivory','linen','pinstripe','glen plaid','safari blazer'] },
     { name: 'Shirts',      slug: 'shirts',      page: 'category-shirts.html',      image: 'shirts.png',  keywords: ['shirt','shirts','dress shirt','formal shirt','business shirt','linen shirt','cotton','oxford','stripe','bengal','voile','sea island'] },
     { name: 'Coats',       slug: 'coats',       page: 'category-coats.html',       image: 'coats.png',   keywords: ['coat','coats','jacket','trench','overcoat','peacoat','safari jacket','khaki','outerwear','blazer'] },
-    { name: 'Trousers',    slug: 'trousers',    page: 'category-trousers.html',    image: 'trouser_charcoal.png', keywords: ['trouser','trousers','pants','chinos','flannel','linen trousers','slim','dress trousers','herringbone','khaki','navy trousers'] },
+    { name: 'Pants',       slug: 'pants',       page: 'category-pants.html',       image: 'trouser_charcoal.png', keywords: ['pant','pants','trouser','trousers','chinos','flannel','linen pants','slim','dress pants','herringbone','khaki','navy pants'] },
     { name: 'Kurtas',      slug: 'kurtas',      page: 'category-kurtas.html',      image: 'kurta.png',   keywords: ['kurta','kurtas','sherwani','indian','festive','embroidered','khadi','ethnic','silk','brocade','pintuck','casual kurta'] },
     { name: 'Accessories', slug: 'accessories', page: 'category-accessories.html', image: 'acc_ties.png', keywords: ['accessories','accessory','tie','ties','pocket square','cufflinks','belt','suspenders','bow tie','silk','leather'] },
+    { name: 'Indo Western', slug: 'indo-western', page: 'category-indo-western.html', image: 'suit_navy.png', keywords: ['indo western','indo-western','bandhgala','jodhpuri','fusion wear','indian formal'] },
+    { name: 'Safari',      slug: 'safari',      page: 'category-safari.html',      image: 'hero.png', keywords: ['safari','safari suit','safari jacket','field jacket','bush shirt'] },
+    { name: 'Pathani',     slug: 'pathani',     page: 'category-pathani.html',     image: 'kurta_indigo.png', keywords: ['pathani','pathani suit','ethnic wear','kurta pyjama'] },
+    { name: 'Fabric Materials', slug: 'fabric-materials', page: 'category-fabric-materials.html', image: 'fabric.png', keywords: ['fabric','materials','shirt piece','suit piece','pant piece','cloth'] },
   ],
   products: [
     // Suits
@@ -34,13 +38,29 @@ const CATALOG = {
     { name: 'Navy Double-Breasted Peacoat', category: 'Coats',       page: 'category-coats.html',       image: 'coat_peacoat.png',   fabric: 'Melton Wool, Horn Buttons',  keywords: ['peacoat','navy coat','double breasted','naval coat'] },
     { name: 'The Club Blazer',              category: 'Coats',       page: 'category-coats.html',       image: 'blazer.png',         fabric: 'Flannel Wool, Gold Buttons', keywords: ['blazer','club blazer','sport coat','flannel blazer'] },
     { name: 'Shawl Collar Overcoat',        category: 'Coats',       page: 'category-coats.html',       image: 'suits.png',          fabric: 'Herringbone Tweed',          keywords: ['shawl collar','tweed coat','herringbone','overcoat'] },
-    // Trousers
-    { name: 'Charcoal Flannel Trousers',    category: 'Trousers',    page: 'category-trousers.html',    image: 'trouser_charcoal.png', fabric: '13oz Flannel Wool, Double Pleat', keywords: ['flannel trousers','charcoal trousers','grey pants','double pleat','formal trousers'] },
-    { name: 'Navy Slim Trousers',           category: 'Trousers',    page: 'category-trousers.html',    image: 'trouser_navy.png',   fabric: 'Super 100s Wool, Flat Front', keywords: ['navy trousers','slim trousers','navy pants','flat front','dress trousers'] },
-    { name: 'Ivory Linen Trousers',         category: 'Trousers',    page: 'category-trousers.html',    image: 'trouser_linen.png',  fabric: 'Pure Linen, Relaxed Fit',    keywords: ['linen trousers','ivory trousers','summer pants','white trousers'] },
-    { name: 'Herringbone Tweed Trousers',   category: 'Trousers',    page: 'category-trousers.html',    image: 'fabric.png',         fabric: 'Harris Tweed, Wide Leg',     keywords: ['herringbone','tweed trousers','wide leg','check pants'] },
-    { name: 'Khaki Tailored Chinos',        category: 'Trousers',    page: 'category-trousers.html',    image: 'suits.png',          fabric: 'Brushed Cotton, Slim Cut',   keywords: ['chinos','khaki trousers','khaki pants','casual trousers','cotton pants'] },
-    { name: 'Black Evening Trousers',       category: 'Trousers',    page: 'category-trousers.html',    image: 'suit_black.png',     fabric: 'Barathea Wool, Silk Braid',  keywords: ['black trousers','evening trousers','tuxedo pants','formal trousers'] },
+    // Pants
+    { name: 'Charcoal Flannel Pants',       category: 'Pants',       page: 'category-pants.html',       image: 'trouser_charcoal.png', fabric: '13oz Flannel Wool, Double Pleat', keywords: ['flannel pants','charcoal pants','grey pants','double pleat','formal pants','trousers'] },
+    { name: 'Navy Slim Pants',              category: 'Pants',       page: 'category-pants.html',       image: 'trouser_navy.png',   fabric: 'Super 100s Wool, Flat Front', keywords: ['navy pants','slim pants','flat front','dress pants','trousers'] },
+    { name: 'Ivory Linen Pants',            category: 'Pants',       page: 'category-pants.html',       image: 'trouser_linen.png',  fabric: 'Pure Linen, Relaxed Fit',    keywords: ['linen pants','ivory pants','summer pants','white pants','trousers'] },
+    { name: 'Herringbone Tweed Pants',      category: 'Pants',       page: 'category-pants.html',       image: 'fabric.png',         fabric: 'Harris Tweed, Wide Leg',     keywords: ['herringbone','tweed pants','wide leg','check pants','trousers'] },
+    { name: 'Khaki Tailored Chinos',        category: 'Pants',       page: 'category-pants.html',       image: 'suits.png',          fabric: 'Brushed Cotton, Slim Cut',   keywords: ['chinos','khaki pants','casual pants','cotton pants','trousers'] },
+    { name: 'Black Evening Pants',          category: 'Pants',       page: 'category-pants.html',       image: 'suit_black.png',     fabric: 'Barathea Wool, Silk Braid',  keywords: ['black pants','evening pants','tuxedo pants','formal pants','trousers'] },
+    // Indo Western
+    { name: 'Midnight Bandhgala Set',       category: 'Indo Western', page: 'category-indo-western.html', image: 'suit_navy.png',     fabric: 'Wool Blend with Satin Facing', keywords: ['bandhgala','indo western','jodhpuri'] },
+    { name: 'Ivory Jodhpuri Ensemble',      category: 'Indo Western', page: 'category-indo-western.html', image: 'suit_ivory.png',    fabric: 'Jacquard Silk Blend', keywords: ['jodhpuri','indo western','wedding'] },
+    { name: 'Festive Fusion Blazer',        category: 'Indo Western', page: 'category-indo-western.html', image: 'blazer.png',        fabric: 'Textured Wool with Hand Finish', keywords: ['fusion blazer','indo western','festive blazer'] },
+    // Safari
+    { name: 'Classic Khaki Safari Suit',    category: 'Safari',      page: 'category-safari.html',      image: 'hero.png',          fabric: 'Linen Cotton Twill', keywords: ['safari suit','khaki safari'] },
+    { name: 'Indigo Safari Jacket',         category: 'Safari',      page: 'category-safari.html',      image: 'blazer.png',        fabric: 'Wool Barathea', keywords: ['safari jacket','indigo safari'] },
+    { name: 'Summer Field Safari Shirt',    category: 'Safari',      page: 'category-safari.html',      image: 'shirt_linen.png',   fabric: 'Lightweight Irish Linen', keywords: ['safari shirt','field shirt'] },
+    // Pathani
+    { name: 'Classic Black Pathani',        category: 'Pathani',     page: 'category-pathani.html',     image: 'suit_black.png',    fabric: 'Cotton Satin', keywords: ['pathani black','pathani suit'] },
+    { name: 'Royal Blue Pathani',           category: 'Pathani',     page: 'category-pathani.html',     image: 'kurta_indigo.png',  fabric: 'Silk Cotton Blend', keywords: ['pathani blue','ethnic suit'] },
+    { name: 'Ivory Pathani Set',            category: 'Pathani',     page: 'category-pathani.html',     image: 'kurta_royal.png',   fabric: 'Matte Finish Linen', keywords: ['pathani ivory','pathani wedding'] },
+    // Fabric materials
+    { name: 'Shirt Piece Fabric Selection', category: 'Fabric Materials', page: 'category-fabric-materials.html', image: 'shirt_white.png', fabric: 'Egyptian Cotton and Linen', keywords: ['shirt piece','shirt fabric'] },
+    { name: 'Suit Piece Fabric Selection',  category: 'Fabric Materials', page: 'category-fabric-materials.html', image: 'suits.png',      fabric: 'Super 120s Wool and Blends', keywords: ['suit piece','suit fabric'] },
+    { name: 'Pant Piece Fabric Selection',  category: 'Fabric Materials', page: 'category-fabric-materials.html', image: 'trouser_charcoal.png', fabric: 'Wool, Cotton and Stretch Blends', keywords: ['pant piece','pants fabric','trouser fabric'] },
     // Kurtas
     { name: 'Ivory Embroidered Kurta',      category: 'Kurtas',      page: 'category-kurtas.html',      image: 'kurta.png',          fabric: 'Pure Cotton, Chikankari',    keywords: ['ivory kurta','embroidered kurta','white kurta','chikankari','cotton kurta'] },
     { name: 'Indigo Festive Kurta',         category: 'Kurtas',      page: 'category-kurtas.html',      image: 'kurta_indigo.png',   fabric: 'Silk-Cotton, Mandarin Collar', keywords: ['indigo kurta','festive kurta','blue kurta','silk kurta','party kurta'] },
@@ -57,6 +77,7 @@ const CATALOG = {
     { name: 'Silk Braces / Suspenders',     category: 'Accessories', page: 'category-accessories.html', image: 'suit_navy.png',      fabric: 'Woven Silk, Leather Ends',   keywords: ['braces','suspenders','silk braces'] },
   ]
 };
+window.CATALOG = CATALOG;
 
 /* Search helper — scores a query against an item */
 function scoreMatch(query, item) {
@@ -129,7 +150,7 @@ function runSearch(query) {
 }
 
 /* ─── MAIN DOM READY ─── */
-document.addEventListener('DOMContentLoaded', () => {
+window.initSafariScripts = function() {
 
   /* ─── STICKY HEADER SHADOW ─── */
   const header = document.getElementById('site-header');
@@ -161,6 +182,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const searchClose   = document.getElementById('search-close');
   const searchInput   = document.getElementById('search-input');
   const searchResults = document.getElementById('search-results');
+  const reactSearchEnabled = searchResults?.dataset.reactSearch === 'true';
 
   function openSearch() {
     searchOverlay?.classList.add('open');
@@ -178,25 +200,27 @@ document.addEventListener('DOMContentLoaded', () => {
     document.body.style.overflow = '';
   }
 
-  searchBtn?.addEventListener('click', openSearch);
-  searchClose?.addEventListener('click', closeSearch);
-  searchOverlay?.addEventListener('click', e => { if (e.target === searchOverlay) closeSearch(); });
-  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeSearch(); });
+  if (!reactSearchEnabled) {
+    searchBtn?.addEventListener('click', openSearch);
+    searchClose?.addEventListener('click', closeSearch);
+    searchOverlay?.addEventListener('click', e => { if (e.target === searchOverlay) closeSearch(); });
+    document.addEventListener('keydown', e => { if (e.key === 'Escape') closeSearch(); });
 
-  /* Live search on input */
-  let searchTimer;
-  searchInput?.addEventListener('input', () => {
-    clearTimeout(searchTimer);
-    searchTimer = setTimeout(() => runSearch(searchInput.value), 180);
-  });
+    /* Live search on input */
+    let searchTimer;
+    searchInput?.addEventListener('input', () => {
+      clearTimeout(searchTimer);
+      searchTimer = setTimeout(() => runSearch(searchInput.value), 180);
+    });
 
-  /* Enter key → navigate to first result */
-  searchInput?.addEventListener('keydown', e => {
-    if (e.key === 'Enter') {
-      const firstLink = searchResults?.querySelector('a');
-      if (firstLink) { window.location.href = firstLink.href; }
-    }
-  });
+    /* Enter key → navigate to first result */
+    searchInput?.addEventListener('keydown', e => {
+      if (e.key === 'Enter') {
+        const firstLink = searchResults?.querySelector('a');
+        if (firstLink) { window.location.href = firstLink.href; }
+      }
+    });
+  }
 
   /* ─── SCROLL REVEAL ─── */
   const revealEls = document.querySelectorAll('.reveal-up');
@@ -219,4 +243,5 @@ document.addEventListener('DOMContentLoaded', () => {
     }, { passive: true });
   }
 
-});
+};
+

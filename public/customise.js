@@ -251,3 +251,4 @@ window.confirmOrder = function () {
     if (sfiSwatch) sfiSwatch.style.background = defSwatch.style.background;
   }
 })();
+
