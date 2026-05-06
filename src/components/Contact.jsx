@@ -165,17 +165,17 @@ export default function Contact() {
 
             <div className="form-group">
               <label className="form-label" htmlFor="cf-name">Full Name *</label>
-              <input className="form-input" type="text" id="cf-name" name="name" placeholder="Arjun Mehta" required autoComplete="name"/>
+              <input className="form-input" type="text" id="cf-name" name="name" placeholder="Om Vaghela" required autoComplete="name"/>
             </div>
 
             <div className="form-group">
               <label className="form-label" htmlFor="cf-email">Email Address *</label>
-              <input className="form-input" type="email" id="cf-email" name="email" placeholder="arjun@email.com" required autoComplete="email"/>
+              <input className="form-input" type="email" id="cf-email" name="email" placeholder="omvaghela95@email.com" required autoComplete="email"/>
             </div>
 
             <div className="form-group">
               <label className="form-label" htmlFor="cf-phone">Phone Number</label>
-              <input className="form-input" type="tel" id="cf-phone" name="phone" placeholder="+91 98765 43210" autoComplete="tel"/>
+              <input className="form-input" type="tel" id="cf-phone" name="phone" placeholder="+91 63525 38594" autoComplete="tel"/>
             </div>
 
             <div className="form-group">

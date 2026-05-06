@@ -257,7 +257,7 @@ export default function Layout({ children }) {
             </div>
             <p className="footer-tagline">Handcrafted bespoke menswear.<br />Est. MCMXLVII, India.</p>
             <div className="footer-socials" aria-label="Social links">
-              <a className="social-link" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+              <a className="social-link" href="https://www.instagram.com/tiptoptailors.main/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
                 <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
                   <rect x="3" y="3" width="18" height="18" rx="5" />
                   <circle cx="12" cy="12" r="3.8" />
