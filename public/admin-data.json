@@ -351,5 +351,73 @@
       ]
     }
   },
-  "homeContent": null
+  "homeContent": {
+    "hero": [
+      {
+        "line1": "CRAFT YOUR",
+        "line2": "LEGACY.",
+        "line3": "BESPOKE MENSWEAR.",
+        "sub": "Every stitch tells your story. Every fabric carries your legacy.",
+        "img": null
+      },
+      {
+        "line1": "DRESS WITH",
+        "line2": "PURPOSE.",
+        "line3": "TAILOR-MADE EXCELLENCE.",
+        "sub": "Where precision meets passion — your garment, your identity.",
+        "img": null
+      },
+      {
+        "line1": "WEAR YOUR",
+        "line2": "STORY.",
+        "line3": "HANDCRAFTED ARTISTRY.",
+        "sub": "From the finest fabrics to the last hand-sewn stitch — made for you alone.",
+        "img": null
+      },
+      {
+        "line1": "DEFINE YOUR",
+        "line2": "STYLE.",
+        "line3": "TIMELESS ELEGANCE.",
+        "sub": "Because what you wear speaks before you do. Let it speak volumes.",
+        "img": null
+      },
+      {
+        "line1": "YOUR TEXT",
+        "line2": "HERE.",
+        "line3": "NEW SLIDE.",
+        "sub": "Your new slide description.",
+        "img": null
+      }
+    ],
+    "featured": [
+      {
+        "tag": "FEATURED THIS SEASON",
+        "title": "The Indigo\nSafari Blazer",
+        "desc": "Rich indigo wool barathea, peak lapels, functional button cuffs and hand-sewn buttonholes. Our signature piece — reinvented every season.",
+        "cta": "CUSTOMISE YOURS",
+        "img": null
+      },
+      {
+        "tag": "WEDDING COLLECTIONS",
+        "title": "Dressed for\nYour Big Day",
+        "desc": "Celebrate the most precious moments together. Our bespoke wedding suits crafted in rich golden yellow and classic black.",
+        "cta": "EXPLORE WEDDING SUITS",
+        "img": null
+      },
+      {
+        "tag": "BULK ORDERS WELCOME",
+        "title": "Outfit Your\nEntire Team",
+        "desc": "From corporate events to family ceremonies — we accept bulk orders with the same quality and precision as every individual bespoke garment.",
+        "cta": "ENQUIRE NOW",
+        "img": null
+      },
+      {
+        "tag": "NEW COLLECTION",
+        "title": "New Slide\nTitle",
+        "desc": "Describe this new featured item here.",
+        "cta": "EXPLORE NOW",
+        "img": null
+      }
+    ]
+  }
 }
