@@ -1,1 +1,355 @@
-{}
+{
+  "catalog": {
+    "suits": {
+      "label": "Suits",
+      "items": [
+        {
+          "id": "suit-1",
+          "name": "Classic Charcoal Two-Piece",
+          "fabric": "Super 120s Worsted Wool"
+        },
+        {
+          "id": "suit-2",
+          "name": "Navy Pinstripe Three-Piece",
+          "fabric": "Zegna Trofeo Wool"
+        },
+        {
+          "id": "suit-3",
+          "name": "Ivory Linen Summer Suit",
+          "fabric": "Pure Linen, Unlined"
+        },
+        {
+          "id": "suit-4",
+          "name": "The Indigo Safari Blazer",
+          "fabric": "Wool Barathea, Peak Lapels"
+        },
+        {
+          "id": "suit-5",
+          "name": "Black Tie Evening Suit",
+          "fabric": "Wool Barathea, Silk Lapels"
+        },
+        {
+          "id": "suit-6",
+          "name": "Glen Plaid Business Suit",
+          "fabric": "Loro Piana Wool-Silk Blend"
+        }
+      ]
+    },
+    "shirts": {
+      "label": "Shirts",
+      "items": [
+        {
+          "id": "shirt-1",
+          "name": "Sea Island Cotton Shirt",
+          "fabric": "Sea Island Cotton, Spread Collar"
+        },
+        {
+          "id": "shirt-2",
+          "name": "Classic White Dress Shirt",
+          "fabric": "2-Ply Egyptian Cotton"
+        },
+        {
+          "id": "shirt-3",
+          "name": "Bengal Stripe Business Shirt",
+          "fabric": "140s Cotton Poplin"
+        },
+        {
+          "id": "shirt-4",
+          "name": "Fine Linen Summer Shirt",
+          "fabric": "Irish Linen, Casual Fit"
+        },
+        {
+          "id": "shirt-5",
+          "name": "Oxford Button-Down",
+          "fabric": "Royal Oxford Weave"
+        },
+        {
+          "id": "shirt-6",
+          "name": "Formal Evening Shirt",
+          "fabric": "Swiss Voile, Pleated Bib"
+        }
+      ]
+    },
+    "coats": {
+      "label": "Coats",
+      "items": [
+        {
+          "id": "coat-1",
+          "name": "The Camel Polo Coat",
+          "fabric": "Cashmere Blend, Fly-Front"
+        },
+        {
+          "id": "coat-2",
+          "name": "Safari Field Coat",
+          "fabric": "Khaki Drill Cotton"
+        },
+        {
+          "id": "coat-3",
+          "name": "Midnight Navy Peacoat",
+          "fabric": "Melton Wool, Double-Breasted"
+        },
+        {
+          "id": "coat-4",
+          "name": "Herringbone Overcoat",
+          "fabric": "Pure Wool Herringbone"
+        },
+        {
+          "id": "coat-5",
+          "name": "Tweed Hacking Jacket",
+          "fabric": "Harris Tweed, 3-Button"
+        },
+        {
+          "id": "coat-6",
+          "name": "Rain-Guard Trench",
+          "fabric": "Ventile Cotton, Belted"
+        }
+      ]
+    },
+    "pants": {
+      "label": "Pants",
+      "items": [
+        {
+          "id": "pant-1",
+          "name": "Charcoal Flannel Trouser",
+          "fabric": "Drapers Flannel, Pleated"
+        },
+        {
+          "id": "pant-2",
+          "name": "Navy Chino",
+          "fabric": "Cotton-Stretch, Slim Fit"
+        },
+        {
+          "id": "pant-3",
+          "name": "Linen Wide-Leg Pant",
+          "fabric": "Pure Linen, High Rise"
+        },
+        {
+          "id": "pant-4",
+          "name": "Cavalry Twill Trouser",
+          "fabric": "Cavalry Twill Wool"
+        },
+        {
+          "id": "pant-5",
+          "name": "Dress Pant — Black",
+          "fabric": "Super 100s Wool, Side Adj."
+        },
+        {
+          "id": "pant-6",
+          "name": "Herringbone Trouser",
+          "fabric": "Wool Herringbone Weave"
+        }
+      ]
+    },
+    "kurtas": {
+      "label": "Kurtas",
+      "items": [
+        {
+          "id": "kurta-1",
+          "name": "Classic White Kurta",
+          "fabric": "Chanderi Cotton, Mandarin Collar"
+        },
+        {
+          "id": "kurta-2",
+          "name": "Indigo Block-Print Kurta",
+          "fabric": "Khadi Silk, Hand Block-Printed"
+        },
+        {
+          "id": "kurta-3",
+          "name": "Royal Blue Nehru Kurta",
+          "fabric": "Raw Silk, Embroidered Collar"
+        },
+        {
+          "id": "kurta-4",
+          "name": "Ivory Chikankari Kurta",
+          "fabric": "Muslin, Hand Embroidered"
+        },
+        {
+          "id": "kurta-5",
+          "name": "Linen Summer Kurta",
+          "fabric": "Pure Linen, Straight Fit"
+        },
+        {
+          "id": "kurta-6",
+          "name": "Festive Silk Kurta",
+          "fabric": "Pure Banarasi Silk"
+        }
+      ]
+    },
+    "accessories": {
+      "label": "Accessories",
+      "items": [
+        {
+          "id": "acc-1",
+          "name": "Silk Pocket Square",
+          "fabric": "Hand-rolled Pure Silk"
+        },
+        {
+          "id": "acc-2",
+          "name": "Wool Tie",
+          "fabric": "Grenadine Wool, Lined"
+        },
+        {
+          "id": "acc-3",
+          "name": "Silk Tie — Navy",
+          "fabric": "Seven-Fold Pure Silk"
+        },
+        {
+          "id": "acc-4",
+          "name": "Leather Belt",
+          "fabric": "Full-Grain Bridle Leather"
+        },
+        {
+          "id": "acc-5",
+          "name": "Cufflinks — Gold",
+          "fabric": "Gold-Plated Brass"
+        },
+        {
+          "id": "acc-6",
+          "name": "Woollen Scarf",
+          "fabric": "Cashmere-Lambswool Blend"
+        }
+      ]
+    },
+    "indo-western": {
+      "label": "Indo Western",
+      "items": [
+        {
+          "id": "iw-1",
+          "name": "Achkan Bandhgala",
+          "fabric": "Raw Silk, Embroidered"
+        },
+        {
+          "id": "iw-2",
+          "name": "Indo-Western Jodhpuri",
+          "fabric": "Silk Blend, Mandarin Collar"
+        },
+        {
+          "id": "iw-3",
+          "name": "Sherwani Coat",
+          "fabric": "Brocade Silk, Gold Buttons"
+        },
+        {
+          "id": "iw-4",
+          "name": "Fusion Blazer-Kurta",
+          "fabric": "Cotton-Linen, Asymmetric Hem"
+        },
+        {
+          "id": "iw-5",
+          "name": "Classic Nehru Jacket",
+          "fabric": "Khadi Silk, Stand Collar"
+        },
+        {
+          "id": "iw-6",
+          "name": "Festive Angarkha",
+          "fabric": "Chanderi Silk, Wrap Front"
+        }
+      ]
+    },
+    "safari": {
+      "label": "Safari",
+      "items": [
+        {
+          "id": "saf-1",
+          "name": "Classic Safari Suit",
+          "fabric": "Drill Cotton, 4 Patch Pockets"
+        },
+        {
+          "id": "saf-2",
+          "name": "Indigo Safari Blazer",
+          "fabric": "Wool Barathea, Peak Lapels"
+        },
+        {
+          "id": "saf-3",
+          "name": "Khaki Adventure Suit",
+          "fabric": "Ripstop Cotton-Linen Blend"
+        },
+        {
+          "id": "saf-4",
+          "name": "Modern Safari Jacket",
+          "fabric": "Stretch Canvas, Slim Fit"
+        },
+        {
+          "id": "saf-5",
+          "name": "Heritage Safari Coat",
+          "fabric": "Stone-Washed Linen, Belted"
+        },
+        {
+          "id": "saf-6",
+          "name": "Safari Camp Collar Shirt",
+          "fabric": "Soft Cotton Gauze"
+        }
+      ]
+    },
+    "pathani": {
+      "label": "Pathani",
+      "items": [
+        {
+          "id": "path-1",
+          "name": "Classic White Pathani",
+          "fabric": "Khadi Cotton, Kameez-Salwar"
+        },
+        {
+          "id": "path-2",
+          "name": "Black Pathani Suit",
+          "fabric": "Silk Blend, Embroidered"
+        },
+        {
+          "id": "path-3",
+          "name": "Olive Green Pathani",
+          "fabric": "Tussar Silk, Casual Fit"
+        },
+        {
+          "id": "path-4",
+          "name": "Royal Blue Pathani",
+          "fabric": "Chanderi Fabric, Festive"
+        },
+        {
+          "id": "path-5",
+          "name": "Ivory Kurta Pajama",
+          "fabric": "Fine Cotton, Side Slits"
+        },
+        {
+          "id": "path-6",
+          "name": "Embroidered Festive Pathani",
+          "fabric": "Jacquard Silk, Zari Work"
+        }
+      ]
+    },
+    "fabrics": {
+      "label": "Fabric Materials",
+      "items": [
+        {
+          "id": "fab-1",
+          "name": "Super 120s Worsted Wool",
+          "fabric": "Italian Mill — Dark Charcoal"
+        },
+        {
+          "id": "fab-2",
+          "name": "Irish Linen",
+          "fabric": "Lightweight, Ivory & Ecru"
+        },
+        {
+          "id": "fab-3",
+          "name": "Sea Island Cotton",
+          "fabric": "White, Ultra-Fine Weave"
+        },
+        {
+          "id": "fab-4",
+          "name": "Loro Piana Cashmere",
+          "fabric": "Baby Cashmere Blend, Camel"
+        },
+        {
+          "id": "fab-5",
+          "name": "Banarasi Silk",
+          "fabric": "Hand-woven, Gold Zari"
+        },
+        {
+          "id": "fab-6",
+          "name": "Zegna Trofeo Wool",
+          "fabric": "Navy Blue, Fine Pinstripe"
+        }
+      ]
+    }
+  },
+  "homeContent": null
+}
