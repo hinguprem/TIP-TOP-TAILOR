@@ -380,13 +380,6 @@
         "line3": "TIMELESS ELEGANCE.",
         "sub": "Because what you wear speaks before you do. Let it speak volumes.",
         "img": null
-      },
-      {
-        "line1": "YOUR TEXT",
-        "line2": "HERE.",
-        "line3": "NEW SLIDE.",
-        "sub": "Your new slide description.",
-        "img": null
       }
     ],
     "featured": [
@@ -409,13 +402,6 @@
         "title": "Outfit Your\nEntire Team",
         "desc": "From corporate events to family ceremonies — we accept bulk orders with the same quality and precision as every individual bespoke garment.",
         "cta": "ENQUIRE NOW",
-        "img": null
-      },
-      {
-        "tag": "NEW COLLECTION",
-        "title": "New Slide\nTitle",
-        "desc": "Describe this new featured item here.",
-        "cta": "EXPLORE NOW",
         "img": null
       }
     ]
